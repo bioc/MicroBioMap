@@ -114,7 +114,7 @@ table(colData(cpd)$instrument)
 
 * Country
     ```{r}
-head(sort(table(colData(cpd)$geo_loc_name), decreasing = TRUE))
+head(sort(table(colData(cpd)$iso), decreasing = TRUE))
     ```
 
 
